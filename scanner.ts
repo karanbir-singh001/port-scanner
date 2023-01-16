@@ -1,4 +1,4 @@
-import net from 'net';
+import * as net from 'net';
 import async from 'async';
 
 const { VMIP = '127.0.0.1', PORTS = '1-65535' } = process.env; //change the i.p
